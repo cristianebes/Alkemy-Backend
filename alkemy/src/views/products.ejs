@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include("./partials/head.ejs") %>
+  </head>
+  <body>
+    <header>
+      <%- include("./partials/header.ejs") %>
+    </header>
+    <main>
+      <h1><%= pelicula.titulo %></h1>
+      <div>
+        Fecha de lanzamiento: <%= pelicula.fecha_de_creacion  %>
+      </div>
+      <div>
+        Calificación: <%= pelicula.calificacion  %>
+      </div>
+    </main>
+      <%- include("./partials/scripts.ejs") %>
+  </body>
+</html>

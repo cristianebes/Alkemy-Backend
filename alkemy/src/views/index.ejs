@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include("./partials/head.ejs") %>
+  </head>
+  <body>
+    <header>
+      <%- include("./partials/header.ejs") %>
+    </header>
+    <main>
+      <h1>PELICULAS:</h1>
+      <ul class="list-group list-group-flush">
+        <% for(pelicula of peliculas) { %>
+
+        <li class="list-group-item"><a href="/products/<%= pelicula.id %>"><%= pelicula.titulo  %></a></li>
+
+        <% } %>
+      </ul>
+    </main>
+      <%- include("./partials/scripts.ejs") %>
+  </body>
+</html>

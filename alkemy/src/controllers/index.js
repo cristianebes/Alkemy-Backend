@@ -1,11 +1,14 @@
-const db = require('../../database/models')
+const db = require('../database/models');
+const sequelize = db.sequelize;
+const fs = require('fs');
 
 const showMovies = function(req, res) {
-	db.Peliculas.findAll()
-		.then(pelicula => res.render("index", { pelicula: pelicula }));
-}
+	db.Pelicula
+		.findAll()
+		.then(peliculas => res.render('index', { peliculas: peliculas }))
+};
 
-module.exports = { showMovies } 
+module.exports = { showMovies };
 
 
 

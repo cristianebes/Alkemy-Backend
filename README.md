@@ -6,9 +6,9 @@ NodeJS backend project for Alkemy
 Start date: 05/03/2022
 Due date: 06/03/2022 - 27/03/2022 ?
 
-**Technical Requirements**
+# Technical Requirements
 
-# To do:
+**To do:**
 
 - Characters list
 - Characters details
@@ -18,12 +18,12 @@ Due date: 06/03/2022 - 27/03/2022 ?
 - Authentication
 - Send emails
 
-# In progress:
+**In progress:**
 
 - Database creation
 - Movies details
 
-# Done:
+**Done:**
 
 - Movies list
 
